@@ -13,14 +13,21 @@ import { MatButtonModule } from '@angular/material/button';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { HomepageComponent } from './homepage/homepage.component';
 import { AboutComponent } from './homepage/about/about.component';
-
+import { FormsModule } from '@angular/forms';
+import { MaterialModule } from 'src/material.module';
 @NgModule({
-  declarations: [AppComponent, NavBarComponent, HomepageComponent, AboutComponent],
+  declarations: [
+    AppComponent,
+    NavBarComponent,
+    HomepageComponent,
+    AboutComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     BrowserAnimationsModule,
+    MaterialModule,
     MatToolbarModule,
     MatSidenavModule,
     MatListModule,
