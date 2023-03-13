@@ -11,9 +11,11 @@ import { MatListModule } from '@angular/material/list';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { HomepageComponent } from './homepage/homepage.component';
+import { AboutComponent } from './homepage/about/about.component';
 
 @NgModule({
-  declarations: [AppComponent, NavBarComponent],
+  declarations: [AppComponent, NavBarComponent, HomepageComponent, AboutComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
